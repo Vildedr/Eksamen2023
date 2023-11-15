@@ -1,0 +1,50 @@
+
+*{
+    box-sizing: border-box;
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "main" "footer";
+}
+
+/**HEADER**/
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+/**MAIN**/
+.gul-btn{
+    background-color: #e6bd43;
+    color: #000;
+    text-decoration: none;
+}
+
+.border-btn{
+    border-style: solid;
+    border-width: 2px;
+    color: #000;
+    text-decoration: none;
+}
+
+/**FOOTER**/
+footer{
+    background-color: #252525;
+    color: #fff;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+/**se oblig 3 ekstra sjanse for hvordan man setter opp dette riktig**/
+@media only screen and (min-width:600px){
+
+}
