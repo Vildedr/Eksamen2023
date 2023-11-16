@@ -45,6 +45,53 @@ header nav ul li a{
 
 /**MAIN**/
 
+#flexboks1{
+    display: flex;
+    flex-direction: column;
+}
+
+#flexboks1 h2{
+    text-align: center;
+}
+
+#flexboks1 p{
+    text-align: center;
+    margin: 16px;
+}
+
+/**MULIG DET MÅ BLI EN BUTTON**/
+#flexboks1 a{
+    
+}
+
+#flexboks2{
+    display: flex;
+    flex-direction: column;
+}
+
+#flexboks2 h2{
+    text-align: center;
+}
+
+#flexboks2 p{
+    text-align: center;
+    margin: 16px;
+}
+
+#flexboks3{
+    display: flex;
+    flex-direction: column;
+}
+
+#flexboks3 h2{
+    text-align: center;
+}
+
+#flexboks3 p{
+    text-align: center;
+    margin: 16px; 
+}
+
 .gul-btn{
     background-color: #e6bd43;
     color: #000;
