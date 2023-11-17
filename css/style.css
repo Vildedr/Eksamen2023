@@ -59,10 +59,7 @@ header nav ul li a{
     margin: 16px;
 }
 
-/**MULIG DET MÅ BLI EN BUTTON**/
-#flexboks1 a{
-    
-}
+/**MULIG DET MÅ BLI EN DE GULE MÅ BLI BUTTON**/
 
 #flexboks2{
     display: flex;
