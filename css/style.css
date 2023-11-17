@@ -24,6 +24,7 @@ header nav a img{
     height: 90px;
     width: 90px;
     margin-top: 50px;
+    margin-left: 10px;
  }
 
 header nav ul{
@@ -33,7 +34,7 @@ header nav ul{
 
 header nav ul li{
     list-style: none;
-    margin: 5px;
+    margin: 10px;
     padding: 5px;
 }
 
@@ -41,6 +42,11 @@ header nav ul li a{
     text-decoration: none;
     color: #000;
     font-size: 20px;
+}
+
+.contact-btn{
+    background-color: #e6bd43;
+    padding: 10px;
 }
 
 /**MAIN**/
@@ -60,6 +66,14 @@ header nav ul li a{
 }
 
 /**MULIG DET MÅ BLI EN DE GULE MÅ BLI BUTTON**/
+#flexboks1 a{
+    text-decoration: none;
+    background-color: #e6bd43;
+    color: #000;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
 
 #flexboks2{
     display: flex;
@@ -68,6 +82,7 @@ header nav ul li a{
 
 #flexboks2 h2{
     text-align: center;
+    margin: 30px 16px 19px 16px;
 }
 
 #flexboks2 p{
@@ -78,29 +93,68 @@ header nav ul li a{
 #flexboks3{
     display: flex;
     flex-direction: column;
+    background-color: #e6bd43;
 }
 
 #flexboks3 h2{
-    text-align: center;
+    align-self: center;
 }
 
 #flexboks3 p{
+    text-align: left;
+    margin: 10px 80px 16px 80px; 
+}
+
+.border-btn{
+    text-decoration: none;
+    color: #000;
+}
+
+#flexboks4{
+    display: flex;
+    flex-direction: column;
+}
+
+#flexboks4 h3{
+    align-self: center;
+}
+
+#flexboks4 i{
+    align-self: center;
+    scale: 1.5;
+}
+
+#flexboks4 article h4{
     text-align: center;
-    margin: 16px; 
+}
+
+#flexboks4 article p{
+    text-align: center;
+    margin: 16px;
+}
+
+#flexboks5{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(220, 219, 219);
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+#flexboks5 h5{
+    align-self: center;
+}
+
+#flexboks5 article{
+    align-self: center;
+}
+
+#flexboks5 article input{
+    padding: 10px;
 }
 
 .gul-btn{
     background-color: #e6bd43;
-    color: #000;
-    text-decoration: none;
-    padding: 5px;
-}
-
-.border-btn{
-    border-style: solid;
-    border-width: 2px;
-    color: #000;
-    text-decoration: none;
 }
 
 /**FOOTER**/
