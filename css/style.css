@@ -216,6 +216,33 @@ header nav ul li a{
     height: 100px;
     margin: 10px;
 }
+/**DENNE MÅ FIKSES SÅ SKJEMA LIGGER RIKTIG, SJEKK HVOR FLEX MÅ LIGGE**/
+#flexboks8{
+    display: flex;
+    flex-direction: column;
+}
+
+#flexboks9{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(239, 239, 239);
+}
+
+#flexboks9 h5{
+    margin: 16px;
+}
+
+#flexboks9 i{
+    color: #525252;
+}
+
+#flexboks9 p{
+    margin: 16px;
+}
+
+#map{
+    width: 100%;
+}
 
 /**FOOTER**/
 footer{
