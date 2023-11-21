@@ -367,7 +367,33 @@ footer ul li a{
 }
 /**SLUTT**/
 
-/**se oblig 3 ekstra sjanse for hvordan man setter opp dette riktig**/
 @media only screen and (min-width:600px){
+
+    #grid-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "header header header" "main main main" "footer footer footer";
+    }
+
+    header{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    main{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    footer{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
 
 }
