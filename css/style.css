@@ -222,7 +222,7 @@ header nav ul li a{
     height: 100px;
     margin: 10px;
 }
-/**DENNE MÅ FIKSES SÅ SKJEMA LIGGER RIKTIG, SJEKK HVOR FLEX MÅ LIGGE**/
+
 #flexboks8{
     display: flex;
     flex-direction: column;
@@ -381,9 +381,10 @@ header nav ul li a{
     flex-wrap: wrap;
 }
 
+/**jfjhfdhjffhjgkddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd**/
 #flexboks11 img{
-    width: 100%;
-    margin: 0 40px 0 40px;
+    width: 25%;
+    margin: 30px 15px 30px 15px;
 }
 
 #flexboks12{
