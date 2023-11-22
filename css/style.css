@@ -234,8 +234,18 @@ header nav ul li a{
     padding: 10px 0 10px 0;
 }
 
+#gray-bakgrunn h4{
+    text-align: center;
+    margin: 45px 20px 45px 20px;
+}
+
+#gray-bakgrunn h5{
+    margin: 0 20px 0 20px;
+}
+
 .input-felt{
     border-style: none;
+    height: 30px;
 }
 
 #message{
@@ -251,22 +261,72 @@ header nav ul li a{
     margin: 5px 0 0 0;
 }
 
+#contact-info-bakgrunn{
+    background-color: rgb(239, 239, 239);
+    padding: 10px;
+}
+
 #flexboks9{
     display: flex;
     flex-direction: column;
-    background-color: rgb(239, 239, 239);
 }
 
 #flexboks9 h5{
-    margin: 16px;
-}
-
-#flexboks9 i{
-    color: #525252;
+    margin: 20px;
 }
 
 #flexboks9 p{
-    margin: 16px;
+    margin: 20px;
+}
+
+#adresse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px 60px 5px 0;
+}
+
+#adresse p{
+    margin: 0;
+}
+
+#adresse i{
+    color: #525252;
+}
+
+#tlf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px 170px 5px 0;
+}
+
+#tlf p{
+    margin: 0;
+}
+
+#tlf i{
+    color: #525252;
+}
+
+#mail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px 115px 5px 0;
+}
+
+#mail p{
+    margin: 0;
+}
+
+#mail i{
+    color: #525252;
+}
+
+#e-post{
+    text-decoration: underline;
+    color: rgb(89, 0, 255);
 }
 
 #map{
