@@ -414,7 +414,7 @@ header nav ul li a{
 }
 
 #bilde-left{
-    
+    flex-grow: 0.3;
 }
 
 #flexboks11 img{
