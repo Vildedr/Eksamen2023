@@ -10,6 +10,7 @@
 }
 
 body{
+    max-width: 1600px;
     margin: 0;
 }
 
@@ -125,7 +126,9 @@ header nav ul li a{
 
 #flexboks4{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #flexboks4 h3{
@@ -144,6 +147,34 @@ header nav ul li a{
 #flexboks4 article p{
     text-align: center;
     margin: 16px;
+}
+
+#services{
+    text-align: center;
+}
+
+#flex-ikon1{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#flex-ikon2{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#flex-ikon3{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#flex-ikon4{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
 }
 
 #flexboks5{
@@ -337,6 +368,7 @@ header nav ul li a{
 /**PORTFOLIO.HTML**/
 #portfolio-bakgrunn{
     background-image: url(../img/kontor.jpg);
+    background-size: cover;
     padding: 100px 0 100px 0;
 }
 
@@ -377,7 +409,6 @@ header nav ul li a{
 #flexboks11{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     flex-wrap: wrap;
 }
 
