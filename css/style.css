@@ -415,6 +415,8 @@ header nav ul li a{
 
 #bilde-left{
     flex-grow: 0.3;
+    max-width: 692px;
+    max-height: 692px;
 }
 
 #flexboks11 img{
@@ -435,12 +437,18 @@ header nav ul li a{
 #flexboks13{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
-#flexboks13 img{
+#flexboks13 figure{
+    flex-grow: 0.3;
+}
+
+#flexboks13 figure img{
     width: 100%;
+    max-width: 692px;
+    max-height: 692px;
 }
 /**SLUTT**/
 
