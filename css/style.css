@@ -494,7 +494,7 @@ footer ul li a{
 }
 /**SLUTT**/
 
-@media only screen and (min-width:600px){
+@media only screen and (min-width:650px){
 
     #grid-container{
         display: grid;
@@ -509,6 +509,10 @@ footer ul li a{
         grid-row-end: 2;
     }
 
+    header nav ul li{
+        display: inline;
+    }
+
     main{
         grid-column-start: 1;
         grid-column-end: 4;
@@ -521,6 +525,24 @@ footer ul li a{
         grid-column-end: 4;
         grid-row-start: 3;
         grid-row-end: 4;
+        flex-direction: row;
+        justify-content: space-between;
     }
+
+    footer a img{
+        margin: 40px 20px 40px 20px;
+    }
+
+    footer p{
+        align-self: center;
+        margin-left: 70px;
+    }
+
+    footer ul{
+        align-self: center;
+        margin: 20px;
+    }
+
+
 
 }
