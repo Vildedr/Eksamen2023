@@ -17,14 +17,18 @@ body{
 /**HEADER**/
 header{
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
-header nav a img{
+header a{
+    align-self: center;
+}
+
+header a img{
     height: 90px;
     width: 90px;
     margin-top: 50px;
-    margin-left: 10px;
  }
 
 header nav ul{
@@ -507,6 +511,20 @@ footer ul li a{
         grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: 2;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header a img{
+        margin: 40px 20px 40px 20px;
+    }
+
+    header nav{
+        align-self: center;
+    }
+
+    header nav ul{
+        margin: 20px;
     }
 
     header nav ul li{
