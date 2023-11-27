@@ -576,6 +576,15 @@ footer ul li a{
     /**SLUTT**/
 
     /**ABOUT.HTML DESKTOP**/
+    #about-bakgrunn{
+        padding-left: 50%;
+    }
+
+    #flexboks6 a{
+        align-self: first baseline;
+        margin-left: 0;
+    }
+
     #flexboks7{
         justify-content: space-evenly;
         margin: 0 100px 0 100px;
