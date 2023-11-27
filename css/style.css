@@ -56,8 +56,6 @@ header nav ul li a{
 }
 /**SLUTT**/
 
-/**OBS SJEKK MARGIN PÅ SIDENE SÅ DET BLIR CA LIKT PÅ ALLE SIDENEN**/
-
 /**INDEX.HTML**/
 #flexboks1{
     display: flex;
@@ -219,7 +217,7 @@ header nav ul li a{
     flex-direction: column;
     margin: 40px;
     padding: 40px;
-    background-color: #fff;
+    background: rgba(244, 246, 246, 0.5)
 }
 
 #flexboks6 h1{
@@ -378,7 +376,7 @@ header nav ul li a{
 
 /**PORTFOLIO.HTML**/
 #portfolio-bakgrunn{
-    background-image: url(../img/kontor.jpg);
+    background-image: url(../img/kontor2.jpg);
     background-size: cover;
     padding: 100px 0 100px 0;
 }
@@ -432,6 +430,11 @@ header nav ul li a{
 
 #flexboks11 img{
     width: 100%;
+}
+
+.bilde-max-min{
+    min-width: 200px;
+    max-width: 350px;
 }
 
 #flexboks12{
