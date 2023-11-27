@@ -268,14 +268,15 @@ header nav ul li a{
     margin: 20px;
 }
 
+#gray-bakgrunn-overskrift{
+    background-color: rgb(239, 239, 239);
+    padding: 20px;
+    text-align: center;
+}
+
 #gray-bakgrunn{
     background-color: rgb(239, 239, 239);
     padding: 10px 0 10px 0;
-}
-
-#gray-bakgrunn h4{
-    text-align: center;
-    margin: 45px 20px 45px 20px;
 }
 
 #gray-bakgrunn h5{
@@ -588,6 +589,47 @@ footer ul li a{
     #flexboks7{
         justify-content: space-evenly;
         margin: 0 100px 0 100px;
+    }
+
+    #flex-desktop{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #gray-bakgrunn-overskrift{
+        background-color: rgb(239, 239, 239);
+        padding: 20px;
+    }
+
+    #gray-bakgrunn{
+        padding: 20px 20px 20px 50px;
+        flex: 1 1 0;
+    }
+
+    #contact-info-bakgrunn{
+        flex: 1 1 0;
+        padding: 20px 50px 20px 20px;
+    }
+
+    #flexboks9 h5{
+        margin: 0 20px 0 20px;
+    }
+
+    #adresse{
+        max-width: 300px;
+    }
+
+    #tlf{
+        max-width: 200px;
+    }
+
+    #mail{
+        max-width: 256px;
+    }
+
+    #map{
+        height: 150px;
+        object-fit: cover;
     }
     /**SLUTT**/
 
