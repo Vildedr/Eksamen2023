@@ -60,7 +60,7 @@ header nav ul li a{
 #flexboks1{
     display: flex;
     flex-direction: column;
-    background-image: url(../img/kontor.jpg);
+    background-image: url(../img/kontor2.jpg);
     background-size: cover;
 }
 
@@ -99,33 +99,36 @@ header nav ul li a{
 
 #flexboks3{
     display: flex;
+    align-items: center;
     flex-direction: column;
     background-color: #e6bd43;
+    padding-bottom: 90px;
 }
 
-#flexboks3 img{
-    align-self: center;
+#flexboks3 article img{
     width: 200px;
     height: 200px;
     margin: 30px;
 }
 
-#flexboks3 h2{
-    align-self: center;
+#flexboks3 article h2{
+    text-align: left;
+    margin: 10px 80px 16px 80px;
 }
 
-#flexboks3 p{
+#flexboks3 article p{
     text-align: left;
+    padding: 0 0 20px 0;
     margin: 10px 80px 16px 80px; 
 }
 
 .border-btn{
-    align-self: center;
+    text-align: center;
     border-style: solid;
     color: #000;
     text-decoration: none;
-    padding: 20px 50px 20px 10px;
-    margin: 5px 10px 70px 10px;
+    padding: 20px 10px 20px 10px;
+    margin: 20px 80px 20px 80px;
 }
 
 #flexboks4{
@@ -538,6 +541,10 @@ footer ul li a{
         grid-row-end: 3;
     }
 
+    /**TEST FLEXboks 3**/
+    #flexboks3{}
+
+    /**TEST FLEXboks 3**/
     footer{
         grid-column-start: 1;
         grid-column-end: 4;
