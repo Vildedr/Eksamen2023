@@ -220,6 +220,8 @@ header nav ul li a{
     background: rgba(244, 246, 246, 0.5)
 }
 
+/**OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBSSSSSSSSSSSS Fikse opacityen over her**/
+
 #flexboks6 h1{
     margin: 0;
 }
@@ -630,6 +632,13 @@ footer ul li a{
 
     #mail{
         max-width: 256px;
+    }
+
+    
+    #map iframe{
+        width: 100%;
+        height: 200px;
+        position: relative;
     }
     /**SLUTT**/
 
