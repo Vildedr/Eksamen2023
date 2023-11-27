@@ -202,6 +202,7 @@ header nav ul li a{
 
 #flexboks5 article input{
     padding: 10px;
+    border: none;
 }
 
 .gul-btn{
@@ -541,10 +542,46 @@ footer ul li a{
         grid-row-end: 3;
     }
 
-    /**TEST FLEXboks 3**/
-    #flexboks3{}
+    /**INDEX.HTML DESKTOP**/
+    #flexboks3{
+        flex-direction: row;
+        padding-bottom: 20px;
+    }
 
-    /**TEST FLEXboks 3**/
+    #flexboks3 article img{
+        width: 350px;
+        height: 350px;
+        margin: 40px 40px 40px 100px;
+    }
+
+    #flexboks3 article h2{
+        text-align: left;
+        margin: 10px 80px 16px 10px;
+    }
+    
+    #flexboks3 article p{
+        text-align: left;
+        padding: 0 0 40px 0;
+        margin: 10px 100px 16px 10px; 
+    }
+    
+    .border-btn{
+        text-align: center;
+        border-style: solid;
+        color: #000;
+        text-decoration: none;
+        padding: 20px 10px 20px 10px;
+        margin: 20px 80px 20px 10px;
+    }
+    /**SLUTT**/
+
+    /**ABOUT.HTML DESKTOP**/
+    #flexboks7{
+        justify-content: space-evenly;
+        margin: 0 100px 0 100px;
+    }
+    /**SLUTT**/
+
     footer{
         grid-column-start: 1;
         grid-column-end: 4;
