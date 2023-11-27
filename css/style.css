@@ -54,6 +54,12 @@ header nav ul li a{
     background-color: #e6bd43;
     padding: 10px;
 }
+
+.current{
+    border-bottom-style: solid;
+    border-color: #e6bd43;
+    font-weight: bold;
+}
 /**SLUTT**/
 
 /**INDEX.HTML**/
@@ -371,8 +377,10 @@ header nav ul li a{
     color: rgb(89, 0, 255);
 }
 
-#map{
+#map iframe{
     width: 100%;
+    height: 200px;
+    position: relative;
 }
 /**SLUTT**/
 
@@ -391,7 +399,7 @@ header nav ul li a{
     margin: 40px;
     border-bottom-style: solid;
     border-color: #e6bd43;
-    padding: 0 0 10px 0;
+    padding: 10px 0 10px 0;
 }
 
 #flexboks10{
@@ -425,6 +433,7 @@ header nav ul li a{
 }
 
 #bilde-left{
+    margin-bottom: 30px;
     flex-grow: 0.3;
     max-width: 692px;
     max-height: 692px;
@@ -543,6 +552,11 @@ footer ul li a{
         display: inline;
     }
 
+    .contact-btn:hover{
+        background-color: #252525;
+        color: #e6bd43;
+    }
+
     main{
         grid-column-start: 1;
         grid-column-end: 4;
@@ -551,6 +565,11 @@ footer ul li a{
     }
 
     /**INDEX.HTML DESKTOP**/
+    #flexboks1 a:hover{
+        background-color: #252525;
+        color: #e6bd43;
+    }
+
     #flexboks3{
         flex-direction: row;
         padding-bottom: 20px;
@@ -572,6 +591,11 @@ footer ul li a{
         padding: 0 0 40px 0;
         margin: 10px 100px 16px 10px; 
     }
+
+    #flexboks3 article a:hover{
+        background-color: #252525;
+        color: #e6bd43;
+    }
     
     .border-btn{
         text-align: center;
@@ -580,6 +604,11 @@ footer ul li a{
         text-decoration: none;
         padding: 20px 10px 20px 10px;
         margin: 20px 80px 20px 10px;
+    }
+
+    .gul-btn:hover{
+        background-color: #252525;
+        color: #e6bd43;
     }
     /**SLUTT**/
 
@@ -591,6 +620,11 @@ footer ul li a{
     #flexboks6 a{
         align-self: first baseline;
         margin-left: 0;
+    }
+
+    #flexboks6 a:hover{
+        background-color: #252525;
+        color: #e6bd43;
     }
 
     #flexboks7{
@@ -634,11 +668,32 @@ footer ul li a{
         max-width: 256px;
     }
 
-    
-    #map iframe{
-        width: 100%;
-        height: 200px;
-        position: relative;
+    .send-btn:hover{
+        background-color: #252525;
+        color: #e6bd43;
+    }
+    /**SLUTT**/
+
+    /**PORTFOLIO.HTML DESKTOP**/
+    #flexboks10 li a:hover{
+        background-color: #252525;
+        color: #e6bd43;
+        border-color: #252525;
+    }
+
+    #flexboks11 figure:hover{
+        transform: translate3D(0,-1px,0) scale(1.1);
+        transition: all 1s ease;
+    }
+
+    #flexboks12 figure:hover{
+        transform: translate3D(0,-1px,0) scale(1.1);
+        transition: all 1s ease;
+    }
+
+    #flexboks13 figure:hover{
+        transform: translate3D(0,-1px,0) scale(1.1);
+        transition: all 1s ease;
     }
     /**SLUTT**/
 
