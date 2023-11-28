@@ -51,6 +51,7 @@ header nav ul li a{
 }
 
 .contact-btn{
+    font-weight: bold;
     background-color: #e6bd43;
     padding: 10px;
 }
@@ -66,26 +67,30 @@ header nav ul li a{
 #flexboks1{
     display: flex;
     flex-direction: column;
-    background-image: url(../img/kontor2.jpg);
+    background-image: url(../img/kontor1.jpg);
     background-size: cover;
+    padding-top: 20px;
 }
 
 #flexboks1 h2{
     text-align: center;
+    font-size: 2rem;
+    margin: 26px 26px 0 26px;
 }
 
 #flexboks1 p{
     text-align: center;
-    margin: 16px;
+    margin: 16px 20px 16px 20px;
 }
 
 #flexboks1 a{
     align-self: center;
+    font-weight: bold;
     text-decoration: none;
     background-color: #e6bd43;
     color: #000;
     margin: 0 50px 60px 50px;
-    padding: 10px 50px 10px 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 #flexboks2{
@@ -95,12 +100,12 @@ header nav ul li a{
 
 #flexboks2 h2{
     text-align: center;
-    margin: 30px 16px 19px 16px;
+    margin: 40px 16px 19px 16px;
 }
 
 #flexboks2 p{
     text-align: center;
-    margin: 16px;
+    margin: 16px 16px 40px 16px;
 }
 
 #flexboks3{
@@ -130,11 +135,17 @@ header nav ul li a{
 
 .border-btn{
     text-align: center;
+    font-weight: bold;
     border-style: solid;
     color: #000;
     text-decoration: none;
     padding: 20px 10px 20px 10px;
     margin: 20px 80px 20px 80px;
+}
+
+#services h3{
+    margin: 40px;
+    font-size: 1.5rem;
 }
 
 #flexboks4{
@@ -172,10 +183,18 @@ header nav ul li a{
     margin: 20px;
 }
 
+#flex-ikon1 h4{
+    margin: 20px 0 0 0;
+}
+
 #flex-ikon2{
     display: flex;
     flex-direction: column;
     margin: 20px;
+}
+
+#flex-ikon2 h4{
+    margin: 20px 0 0 0;
 }
 
 #flex-ikon3{
@@ -184,10 +203,18 @@ header nav ul li a{
     margin: 20px;
 }
 
+#flex-ikon3 h4{
+    margin: 20px 0 0 0;
+}
+
 #flex-ikon4{
     display: flex;
     flex-direction: column;
     margin: 20px;
+}
+
+#flex-ikon4 h4{
+    margin: 20px 0 0 0;
 }
 
 #flexboks5{
@@ -199,6 +226,7 @@ header nav ul li a{
 }
 
 #flexboks5 h5{
+    font-size: 1rem;
     align-self: center;
 }
 
@@ -223,16 +251,15 @@ header nav ul li a{
     flex-direction: column;
     margin: 40px;
     padding: 40px;
-    background: rgba(244, 246, 246, 0.5)
+    background: rgba(244, 246, 246, 0.6)
 }
-
-/**OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBSSSSSSSSSSSS Fikse opacityen over her**/
 
 #flexboks6 h1{
     margin: 0;
 }
 
 #flexboks6 a{
+    font-weight: bold;
     align-self: center;
     text-decoration: none;
     background-color: #e6bd43;
@@ -277,6 +304,7 @@ header nav ul li a{
 }
 
 #gray-bakgrunn-overskrift{
+    font-size: 1rem;
     background-color: rgb(239, 239, 239);
     padding: 20px;
     text-align: center;
@@ -302,6 +330,7 @@ header nav ul li a{
 }
 
 .send-btn{
+    font-weight: bold;
     background-color: #e6bd43;
     border: none;
     width: fit-content;
@@ -320,6 +349,7 @@ header nav ul li a{
 }
 
 #flexboks9 h5{
+    font-size: 1rem;
     margin: 20px;
 }
 
@@ -386,12 +416,13 @@ header nav ul li a{
 
 /**PORTFOLIO.HTML**/
 #portfolio-bakgrunn{
-    background-image: url(../img/kontor2.jpg);
+    background-image: url(../img/kontor1.jpg);
     background-size: cover;
     padding: 100px 0 100px 0;
 }
 
 #portfolio-bakgrunn h1{
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -443,6 +474,10 @@ header nav ul li a{
     width: 100%;
 }
 
+#flexboks11 figure figcaption p{
+    font-weight: bold;
+}
+
 .bilde-max-min{
     min-width: 200px;
     max-width: 350px;
@@ -457,6 +492,10 @@ header nav ul li a{
 
 #flexboks12 img{
     width: 100%;
+}
+
+#flexboks12 figure figcaption p{
+    font-weight: bold;
 }
 
 #flexboks13{
@@ -474,6 +513,10 @@ header nav ul li a{
     width: 100%;
     max-width: 692px;
     max-height: 692px;
+}
+
+#flexboks13 figure figcaption p{
+    font-weight: bold;
 }
 /**SLUTT**/
 
@@ -595,6 +638,7 @@ footer ul li a{
     #flexboks3 article a:hover{
         background-color: #252525;
         color: #e6bd43;
+        border-color: #252525;
     }
     
     .border-btn{
