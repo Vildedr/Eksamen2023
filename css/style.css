@@ -56,6 +56,7 @@ header nav ul li a{
     padding: 10px;
 }
 
+/**Kilde: https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html**/
 .current{
     border-bottom-style: solid;
     border-color: #e6bd43;
@@ -246,6 +247,7 @@ header nav ul li a{
 /**SLUTT**/
 
 /**ABOUT.HTML**/
+/**Kilde: https://stackoverflow.com/questions/44414722/how-to-change-the-opacity-of-background-without-changing-the-content-of-it**/
 #flexboks6{
     display: flex;
     flex-direction: column;
@@ -407,6 +409,7 @@ header nav ul li a{
     color: rgb(89, 0, 255);
 }
 
+/**Kilde: https://stackoverflow.com/questions/10250961/full-width-google-map-and-css**/
 #map iframe{
     width: 100%;
     height: 200px;
@@ -594,7 +597,7 @@ footer ul li a{
     header nav ul li{
         display: inline;
     }
-
+    /**Kilde: https://stackoverflow.com/questions/20289481/css-change-background-color-on-hover**/
     .contact-btn:hover{
         background-color: #252525;
         color: #e6bd43;
@@ -686,6 +689,7 @@ footer ul li a{
         padding: 20px;
     }
 
+    /**Kilde: https://stackoverflow.com/questions/29503227/how-to-make-flexbox-items-the-same-size**/
     #gray-bakgrunn{
         padding: 20px 20px 20px 50px;
         flex: 1 1 0;
@@ -725,6 +729,7 @@ footer ul li a{
         border-color: #252525;
     }
 
+    /**Kilde: https://nestedsoftware.com/2019/11/05/card-with-expand-on-hover-effect-2ccm.200941.html**/
     #flexboks11 figure:hover{
         transform: translate3D(0,-1px,0) scale(1.1);
         transition: all 1s ease;
